@@ -11,7 +11,9 @@ git clone https://github.com/dendil/dendy-aliyun-ddns.git
 安装依赖
 ```bash
 cd dendy-aliyun-ddns 
-python3  -m pip install --upgrade pip 
+need python >=3.7
+python3  -m pip install --upgrade pip setuptools
+
 python3  setup.py  install
 ```
 
